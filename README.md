@@ -14,6 +14,14 @@
     <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/montagem.jpeg?raw=true" />
 </p>
 
+# Trabalhos futuros
+
+<ul>
+  <li>Adicionar sensor de pH</li>
+  <li>Implmentar com ESP32</li>
+  <li>Implmentar rede LoRa</li>
+</ul>
+
 # Referências
 
 <ul>
