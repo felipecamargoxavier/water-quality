@@ -27,5 +27,6 @@
 <ul>
   <li>https://wiki.dfrobot.com/Waterproof_DS18B20_Digital_Temperature_Sensor__SKU_DFR0198</li>
   <li>https://wiki.dfrobot.com/Turbidity_sensor_SKU__SEN0189</li>
+   <li>https://wiki.dfrobot.com/Gravity__Analog_pH_Sensor_Meter_Kit_V2_SKU_SEN0161-V2 </li>
 </ul>
 
