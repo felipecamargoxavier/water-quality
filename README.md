@@ -4,8 +4,8 @@
 <ul>
   <li>Arduino Uno</li>
   <li>2 X Resistor 10k</li>
-  <li>Sensor de temperatura DFRobot DFR0198 DS18B20</li>
-  <li>Sensor de turbidez DFRobot SEN0189</li>
+  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
+  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
 </ul>
 
 # Montagem
