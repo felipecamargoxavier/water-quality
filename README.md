@@ -1,11 +1,19 @@
-# Monitoramento de qualidade de água: temperatura e turbidez
+# Monitoramento de qualidade de água
+
+<h3>Implementação:</h3>
+<ul>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Monitoramento de turbidez, temperatura e pH</a></li>
+</ul>
+
 
 <h3>Componentes:</h3>
 <ul>
   <li>Arduino Uno</li>
-  <li>2 X Resistor 10k</li>
+  <li>2 X Resistores 10k</li>
   <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
   <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
+   <li>Sensor de pH DFRobot SEN0189 [3] </li>
 </ul>
 
 # Montagem
@@ -13,14 +21,6 @@
 <p align="center">
     <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/montagem.jpeg?raw=true" />
 </p>
-
-# Trabalhos futuros
-
-<ul>
-  <li>Adicionar sensor de pH</li>
-  <li>Implmentar com ESP32</li>
-  <li>Implmentar rede LoRa</li>
-</ul>
 
 # Referências
 
