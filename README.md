@@ -16,6 +16,14 @@
    <li>Sensor de pH DFRobot SEN0189 [3] </li>
 </ul>
 
+# Calibração
+
+<h3> Sensor pH SEN0189 </h3>
+
+<p> 
+A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library</a>  implementa a medição com compensação de temperatura e a calibração do sensor SEN0189. As referências para calibração são as amostras adquiridas com o kit do sensor. A partir das amostras é obtido dois pontos no gráfico <b>Tensão(V) x pH</b> e traçado uma curva linear que relaciona a tensão com a medida de pH. Os dois pontos de referência são salvos na memória EEPROM do Arduino [3].
+</p>
+
 # Montagem
 
 <p align="center">
