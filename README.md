@@ -1,5 +1,23 @@
 # Monitoramento de qualidade de água
 
+<p align="justify">  A qualidade da água pode ser conhecida sabendo determinados parâmtros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
+
+# Implementações
+
+<h3>Implementação Gateway LoRa + Sensor node (ph, temperatura, turbidez)</h3>
+<ul>
+  <li><a href="">Gateway</a></li>
+  <li><a href="">Sensor node (ph, temperatura, turbidez)</a></li>
+</ul>
+
+<h3>Componentes:</h3>
+<ul>
+  <li>2 x Heltec ESP32 WiFi LoRa V2</li>
+  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
+  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
+   <li>Sensor de pH DFRobot SEN0189 [3] </li>
+</ul>
+
 <h3>Implementação com ARDUINO UNO:</h3>
 <ul>
   <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
@@ -15,6 +33,8 @@
   <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
    <li>Sensor de pH DFRobot SEN0189 [3] </li>
 </ul>
+
+
 
 # Sensores (calibração e informações técnicas)
 
@@ -43,18 +63,27 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   <li>Tensão de saída: 0-4.5V  *(para o ESP32 é necessário adequar a tensão para 0-3.3V)</li>
   <li>Temperatura de trabalho: 5℃~90℃</li>
   </ul>
+  
+<h3> Sensor temperatura DSB18B20 </h3>
 
+ <ul>
+  <li>Tensão de alimentação: 3.0V to 5.5V</li>
+  <li>Temperatura de trabalho: -55 to 125℃ (-67℉ to +257℉)</li>
+  <li>Utiliza comunicação OneWire</li>
+  <li>Acurácia: ±0.5℃ entre -10℃ to +85℃</li>
+  <li>Resolução: 9 ou 12 bits</li>
+  </ul>
 
 # Montagem
 
 <p align="center">
-    <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/montagem.jpeg?raw=true" />
+    <img src="" />
 </p>
 
 # Referências
 
 <ul>
-  <li>[1] https://wiki.dfrobot.com/Waterproof_DS18B20_Digital_Temperature_Sensor__SKU_DFR0198</li>
+  <li>[1] https://wiki.dfrobot.com/Waterproof_DS18B20_Digital_Temperature_Sensor__SKU_DFR0198_</li>
   <li>[2] https://wiki.dfrobot.com/Turbidity_sensor_SKU__SEN0189</li>
    <li>[3] https://wiki.dfrobot.com/Gravity__Analog_pH_Sensor_Meter_Kit_V2_SKU_SEN0161-V2 </li>
 </ul>
