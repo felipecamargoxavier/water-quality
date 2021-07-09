@@ -4,13 +4,18 @@
 
 # Implementações
 
-<h3>Implementação Gateway LoRa + Sensor node (ph, temperatura, turbidez)</h3>
+<h2>Implementação Gateway LoRa + Sensor node (ph, temperatura, turbidez)</h2>
+
+<p align="justify">
+  O sensor node é responsável por medir a temperatura, ph e turbidez. Os dados são enviados através do radio LoRa (915 MHz e SF7) a cada 15s. O Gateway utiliza o protoclo MQTT para publicar na plataforma <a href="https://ubidots.com/">Ubidots</a> as informações recebidas do sensor node.
+</p>
+
 <ul>
   <li><a href="">Gateway</a></li>
   <li><a href="">Sensor node (ph, temperatura, turbidez)</a></li>
 </ul>
 
-<h3>Componentes:</h3>
+<h4>Componentes:</h4>
 <ul>
   <li>2 x Heltec ESP32 WiFi LoRa V2</li>
   <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
@@ -18,14 +23,19 @@
    <li>Sensor de pH DFRobot SEN0189 [3] </li>
 </ul>
 
-<h3>Implementação com ARDUINO UNO:</h3>
+<h2>Implementação com ARDUINO UNO:</h2>
+
+<p align="justify"> Implementação de menor custo que pode ser utilizada para testar os sensores. A principal diferença é que o ESP32 trabalha com 3.3V e o 
+  Arduino com 5.0V
+</p>
+
 <ul>
   <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
   <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Monitoramento de turbidez, temperatura e pH</a></li>
 </ul>
 
 
-<h3>Componentes:</h3>
+<h4>Componentes:</h4>
 <ul>
   <li>Arduino Uno</li>
   <li>2 X Resistores 10k</li>
