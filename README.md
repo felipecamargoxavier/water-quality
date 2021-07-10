@@ -11,8 +11,8 @@
 </p>
 
 <ul>
-  <li><a href="">Gateway</a></li>
-  <li><a href="">Sensor node (ph, temperatura, turbidez)</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/gateway-lora-monitoramento-agua.cpp">Gateway</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end-node-temperatura-ph-turbidez.cpp">Sensor node (ph, temperatura, turbidez)</a></li>
 </ul>
 
 <h4>Componentes:</h4>
