@@ -85,12 +85,28 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   </ul>
 
 # Montagem
-!--
-<p align="center">
-    <img src="" />
-</p>--!
+
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
+# Testes e resultados
+
+<p align="justify"> 
+  O teste foi realizado com uma solução de água, limão e suco em pó. Os seguintes passos foram realizados:
+   <ul>
+  <li>1) A solução foi aquecida até atingir aproximadamente 60ºC</li>
+  <li>2) Misturou-se a solução até ficar com uma aparência homogênea.</li>
+  <li>3) Os valores de ph, temperatura e turbidez foram medidos até a solução entrar em equilíbrio térmico com o ambiente.</li>
+  </ul>
+  
+  <h3> Resultados </h3>
+  
+ <p align="justify"> 
+  Os valores medidos são apresentados a seguir. É possível observar que quando a temperatura diminui, a medida de pH aumenta. 
+    Os valores de turbidez diminuem com o passar do tempo devido ao processo de decantação e apresentam um ruído maior.
+</p>
+  
+</p>
 
 # Referências
 
