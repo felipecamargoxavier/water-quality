@@ -88,6 +88,9 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 
 
 [![Watch the video](https://i9.ytimg.com/vi/y-rcUpNHFAA/mq1.jpg?sqp=CMzCp4cG&rs=AOn4CLCfSEdUDXKzhFwho7rnZ68ddbeSiQ)](https://youtu.be/y-rcUpNHFAA)
+<p>Disponível em: https://youtu.be/y-rcUpNHFAA</p>
+
+
 
 # Testes e resultados
 
@@ -98,6 +101,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   <li>2) Misturou-se a solução até ficar com uma aparência homogênea.</li>
   <li>3) Os valores de ph, temperatura e turbidez foram medidos até a solução entrar em equilíbrio térmico com o ambiente.</li>
   </ul>
+  </p>
   
   <h3> Resultados </h3>
   
@@ -111,8 +115,13 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 ![Resultados](https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/resultados_teste.svg)
 
 
+
+
+[![Watch the video](https://i9.ytimg.com/vi/EplQrjDQ0Z4/mq1.jpg?sqp=CNDJp4cG&rs=AOn4CLByiKM7hyaN25_zA4nJmlfwc5wLng)](https://youtu.be/EplQrjDQ0Z4)
+<p>Disponível em: https://youtu.be/EplQrjDQ0Z4</p>
+
   
-</p>
+
 
 # Referências
 
