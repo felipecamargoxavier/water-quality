@@ -108,7 +108,9 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 
 
 
-![Test Image 3](https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/resultados_teste.svg)
+![Resultados](https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/resultados_teste.svg)
+
+
   
 </p>
 
