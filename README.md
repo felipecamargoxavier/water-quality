@@ -105,6 +105,10 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   Os valores medidos são apresentados a seguir. É possível observar que quando a temperatura diminui, a medida de pH aumenta. 
     Os valores de turbidez diminuem com o passar do tempo devido ao processo de decantação e apresentam um ruído maior.
 </p>
+
+
+
+![Test Image 3](https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/resultados_teste.svg)
   
 </p>
 
