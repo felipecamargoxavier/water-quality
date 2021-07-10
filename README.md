@@ -4,7 +4,7 @@
 
 # Implementações
 
-<h2>Implementação Gateway LoRa + Sensor node (ph, temperatura, turbidez)</h2>
+<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez)</h2>
 
 <p align="justify">
   O sensor node é responsável por medir a temperatura, ph e turbidez. Os dados são enviados através do radio LoRa (915 MHz e SF7) a cada 15s. O Gateway utiliza o protoclo MQTT para publicar na plataforma <a href="https://ubidots.com/">Ubidots</a> as informações recebidas do sensor node.
@@ -85,10 +85,10 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   </ul>
 
 # Montagem
-
+!--
 <p align="center">
     <img src="" />
-</p>
+</p>--!
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
