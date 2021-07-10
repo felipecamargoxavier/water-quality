@@ -90,6 +90,8 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
     <img src="" />
 </p>
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
 # Referências
 
 <ul>
