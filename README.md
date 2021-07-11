@@ -87,7 +87,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 # Montagem
 
 
-[![Watch the video](https://i9.ytimg.com/vi/y-rcUpNHFAA/mq1.jpg?sqp=CMzCp4cG&rs=AOn4CLCfSEdUDXKzhFwho7rnZ68ddbeSiQ)](https://youtu.be/y-rcUpNHFAA)
+[![Watch the video](https://i9.ytimg.com/vi/y-rcUpNHFAA/mq1.jpg?sqp=CMTtrYcG&rs=AOn4CLCoL1swT8R9V1j2Eojv1b7PdByG5Q)](https://youtu.be/y-rcUpNHFAA)
 <p>Disponível em: https://youtu.be/y-rcUpNHFAA</p>
 
 
@@ -117,7 +117,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 
 
 
-[![Watch the video](https://i9.ytimg.com/vi/EplQrjDQ0Z4/mq1.jpg?sqp=CNDJp4cG&rs=AOn4CLByiKM7hyaN25_zA4nJmlfwc5wLng)](https://youtu.be/EplQrjDQ0Z4)
+[![Watch the video](https://i9.ytimg.com/vi/EplQrjDQ0Z4/mq1.jpg?sqp=CPDvrYcG&rs=AOn4CLA8ahAyfz4RC8NugfrlQSlhnHlrjw)](https://youtu.be/EplQrjDQ0Z4)
 <p>Disponível em: https://youtu.be/EplQrjDQ0Z4</p>
 
   
