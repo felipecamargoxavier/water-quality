@@ -1,10 +1,13 @@
 # Monitoramento de qualidade de água
 
-<p align="justify">  A qualidade da água pode ser conhecida sabendo determinados parâmetros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
+<p align="justify">  A <a href="https://docs.google.com/presentation/d/1uHk2DYrfxsaQ3JNXLhX1uGLU5sidi7bCZawYK-Eue2A/edit?usp=sharing" >qualidade da água</a> pode ser conhecida sabendo determinados parâmetros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
 
 # Implementações
 
 <h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez)</h2>
+<p align="justify">
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo1.jpg?raw=true"/>
+</p>
 
 <p align="justify">
   O sensor node é responsável por medir a temperatura, ph e turbidez. Os dados são enviados através do radio LoRa (915 MHz e SF7) a cada 15s. O Gateway utiliza o protoclo MQTT para publicar na plataforma <a href="https://ubidots.com/">Ubidots</a> as informações recebidas do sensor node.
