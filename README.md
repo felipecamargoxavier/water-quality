@@ -1,4 +1,4 @@
-# Monitoramento de qualidade de água
+# Monitoramento da Qualidade da Água
 
 <p align="justify">  A <a href="https://docs.google.com/presentation/d/1uHk2DYrfxsaQ3JNXLhX1uGLU5sidi7bCZawYK-Eue2A/edit?usp=sharing" >qualidade da água</a> pode ser conhecida sabendo determinados parâmetros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
 
