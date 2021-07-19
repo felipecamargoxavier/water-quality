@@ -94,8 +94,8 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 <p>Disponível em: https://youtu.be/y-rcUpNHFAA</p>
 
 <p align="justify">
-   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/sensor_node.jpeg?raw=true" width="420" height="305"/>
-   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/testes_turbidez.jpeg?raw=true" width="420" height="305"/>
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/sensor_node.jpeg?raw=true" width="420" height="280"/>
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/testes_turbidez.jpeg?raw=true" width="420" height="280"/>
 </p>
 </p>
 
