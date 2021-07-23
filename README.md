@@ -1,6 +1,10 @@
 # Monitoramento da Qualidade da Água
 
-<p align="justify">  A <a href="https://docs.google.com/presentation/d/1uHk2DYrfxsaQ3JNXLhX1uGLU5sidi7bCZawYK-Eue2A/edit?usp=sharing" >qualidade da água</a> pode ser conhecida sabendo determinados parâmetros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
+<p align="justify">  A qualidade da água pode ser conhecida sabendo determinados parâmetros: temperatura, pH, turbidez, oxigênio dissolvido, condutividade, solidos dissolvidos e entre outros. Esse trabalho tem o objetivo de medir a turbidez, temperatura e pH da água para estimar sua qualidade. </p>
+
+<p align="justify">
+   <a href="https://docs.google.com/presentation/d/1qVVoXBI_P2jty8KVRZ7gaNLmSqMubqdIrz3uwzO5s9c/edit#slide=id.ge5f9ac8532_2_97">Cálculo do Índice de Qualidade das Águas (IQA)</a>
+</p>
 
 # Implementações
 
