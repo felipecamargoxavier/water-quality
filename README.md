@@ -53,8 +53,8 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 </p>
 
 <ul>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Monitoramento de turbidez, temperatura e pH</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Código Monitoramento de turbidez e temperatura</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Código Monitoramento de turbidez, temperatura e pH</a></li>
 </ul>
 
 
@@ -77,8 +77,8 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 </p>
 
 <ul>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/gateway-lora-monitoramento-agua.cpp">Gateway</a></li>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end-node-temperatura-ph-turbidez.cpp">Sensor node (ph, temperatura, turbidez)</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/gateway-lora-monitoramento-agua.cpp"> Código Gateway</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end-node-temperatura-ph-turbidez.cpp">Código Sensor node (ph, temperatura, turbidez)</a></li>
 </ul>
 
 <h4>Componentes:</h4>
@@ -132,8 +132,16 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 
 <h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez) - Versão 1.1</h2>
 <p align="justify">
-   <img src=""/>
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo_1.1.png"/>
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo_1.1_montagem.png"/>
 </p>
+
+<ul>
+  <li><a href="https://drive.google.com/file/d/1moIYPEcGVesq5BIV2T9xbrnocTn4xW8K/view?usp=sharing">Circuito de alimentação 1/2</a></li>
+  <li><a href="https://drive.google.com/file/d/1yPvSPrrIwZWj6IBDiU_7q6Zq0qt0IUii/view?usp=sharing">Circuito de alimentação 2/2</a></li>
+  <li><a href="https://drive.google.com/file/d/1vu2MEIVH-Txz52hvftBIytfDr3FUJUU9/view?usp=sharing">Circuito do end device</a></li>
+  <li><a href="">Código end device</a></li>
+</ul>
 
 # Referências
 
