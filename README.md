@@ -67,7 +67,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
    <li>Sensor de pH DFRobot SEN0189 [3] </li>
 </ul>
 
-<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez)</h2>
+<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez) - Versão 1.0</h2>
 <p align="justify">
    <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo1.jpg?raw=true"/>
 </p>
