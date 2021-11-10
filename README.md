@@ -6,53 +6,6 @@
    <a href="https://docs.google.com/presentation/d/1qVVoXBI_P2jty8KVRZ7gaNLmSqMubqdIrz3uwzO5s9c/edit#slide=id.ge5f9ac8532_2_97">Apresentação do dispositivo de monitoramento da qualidade da água</a>
 </p>
 
-# Implementações
-
-<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez)</h2>
-<p align="justify">
-   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo1.jpg?raw=true"/>
-</p>
-
-<p align="justify">
-  O sensor node é responsável por medir a temperatura, ph e turbidez. Os dados são enviados através do radio LoRa (915 MHz e SF7) a cada 15s. O Gateway utiliza o protoclo MQTT para publicar na plataforma <a href="https://ubidots.com/">Ubidots</a> as informações recebidas do sensor node.
-</p>
-
-<ul>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/gateway-lora-monitoramento-agua.cpp">Gateway</a></li>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end-node-temperatura-ph-turbidez.cpp">Sensor node (ph, temperatura, turbidez)</a></li>
-</ul>
-
-<h4>Componentes:</h4>
-<ul>
-  <li>2 x Heltec ESP32 WiFi LoRa V2</li>
-  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
-  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
-   <li>Sensor de pH DFRobot SEN0189 [3] </li>
-</ul>
-
-<h2>Implementação com ARDUINO UNO:</h2>
-
-<p align="justify"> Implementação de menor custo que pode ser utilizada para testar os sensores. A principal diferença é que o ESP32 trabalha com 3.3V e o 
-  Arduino com 5.0V
-</p>
-
-<ul>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
-  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Monitoramento de turbidez, temperatura e pH</a></li>
-</ul>
-
-
-<h4>Componentes:</h4>
-<ul>
-  <li>Arduino Uno</li>
-  <li>2 X Resistores 10k</li>
-  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
-  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
-   <li>Sensor de pH DFRobot SEN0189 [3] </li>
-</ul>
-
-
-
 # Sensores (calibração e informações técnicas)
 
 <h3> Sensor pH SEN0161-V2 </h3>
@@ -91,9 +44,53 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   <li>Resolução: 9 ou 12 bits</li>
   </ul>
 
-# Montagem
+# Implementações
+
+<h2>Implementação com ARDUINO UNO:</h2>
+
+<p align="justify"> Implementação de menor custo que pode ser utilizada para testar os sensores. A principal diferença é que o ESP32 trabalha com 3.3V e o 
+  Arduino com 5.0V
+</p>
+
+<ul>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature.ino">Monitoramento de turbidez e temperatura</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/turbity-temperature-ph.ino">Monitoramento de turbidez, temperatura e pH</a></li>
+</ul>
 
 
+<h4>Componentes:</h4>
+<ul>
+  <li>Arduino Uno</li>
+  <li>2 X Resistores 10k</li>
+  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
+  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
+   <li>Sensor de pH DFRobot SEN0189 [3] </li>
+</ul>
+
+<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez)</h2>
+<p align="justify">
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo1.jpg?raw=true"/>
+</p>
+
+<p align="justify">
+  O sensor node é responsável por medir a temperatura, ph e turbidez. Os dados são enviados através do radio LoRa (915 MHz e SF7) a cada 15s. O Gateway utiliza o protoclo MQTT para publicar na plataforma <a href="https://ubidots.com/">Ubidots</a> as informações recebidas do sensor node.
+</p>
+
+<ul>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/gateway-lora-monitoramento-agua.cpp">Gateway</a></li>
+  <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end-node-temperatura-ph-turbidez.cpp">Sensor node (ph, temperatura, turbidez)</a></li>
+</ul>
+
+<h4>Componentes:</h4>
+<ul>
+  <li>2 x Heltec ESP32 WiFi LoRa V2</li>
+  <li>Sensor de temperatura DFRobot DFR0198 DS18B20 [1]</li>
+  <li>Sensor de turbidez DFRobot SEN0189 [2] </li>
+   <li>Sensor de pH DFRobot SEN0189 [3] </li>
+</ul>
+
+
+<h4>Montagem</h4>
 
 <p>Disponível em: https://youtu.be/y-rcUpNHFAA</p>
 
@@ -107,7 +104,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 
 
 
-# Testes e resultados
+<h4>Testes e resultados</h4>
 
 <p align="justify"> 
   O teste foi realizado com uma solução de água, limão e suco em pó. Os seguintes passos foram realizados:
@@ -118,7 +115,7 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   </ul>
   </p>
   
-  <h3> Resultados </h3>
+  <h4> Resultados </h4>
   
  <p align="justify"> 
   Os valores medidos são apresentados a seguir. É possível observar que quando a temperatura diminui, a medida de pH aumenta. 
@@ -130,13 +127,13 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 ![Resultados](https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/resultados_teste.svg)
 
 
-
-
-
 <p>Disponível em: https://youtu.be/EplQrjDQ0Z4</p>
 
-  
 
+<h2>Implementação Gateway LoRa + Sensor node (pH, temperatura, turbidez) - Versão 1.1</h2>
+<p align="justify">
+   <img src=""/>
+</p>
 
 # Referências
 
