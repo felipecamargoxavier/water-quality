@@ -134,6 +134,9 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
 <p align="justify">
    <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo_1.1.png"/>
    <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo_1.1_montagem.png"/>
+   <img src="https://github.com/FelipeCamargoXavier/water-quality/blob/main/images/prototipo.png"/>
+   
+    
 </p>
 
 <ul>
@@ -141,6 +144,8 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   <li><a href="https://drive.google.com/file/d/1yPvSPrrIwZWj6IBDiU_7q6Zq0qt0IUii/view?usp=sharing">Circuito de alimentação 2/2</a></li>
   <li><a href="https://drive.google.com/file/d/1vu2MEIVH-Txz52hvftBIytfDr3FUJUU9/view?usp=sharing">Circuito do end device</a></li>
   <li><a href="https://github.com/FelipeCamargoXavier/water-quality/blob/main/end_node_prototipo_1.1.cpp">Código end device</a></li>
+   
+  
 </ul>
 
 # Referências
@@ -149,6 +154,9 @@ A biblioteca <a href="https://github.com/DFRobot/DFRobot_PH">DFRobot_PH Library<
   <li>[1] https://wiki.dfrobot.com/Waterproof_DS18B20_Digital_Temperature_Sensor__SKU_DFR0198_</li>
   <li>[2] https://wiki.dfrobot.com/Turbidity_sensor_SKU__SEN0189</li>
    <li>[3] https://wiki.dfrobot.com/Gravity__Analog_pH_Sensor_Meter_Kit_V2_SKU_SEN0161-V2 </li>
+   
+   
+   
 </ul>
 
 
